@@ -25,7 +25,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/SumSubstance/IdensicMobileSDK-iOS.git", .exact(version)),
+        .package(url: "https://github.com/sumsub/IdensicMobileSDK-iOS.git", .exact(version)),
         .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios", "2.17.1" ..< "3.0.0")
     ],
     targets: [
